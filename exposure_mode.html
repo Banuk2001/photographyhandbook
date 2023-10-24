@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarouselCSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/styleCard.css" />
+    <link rel="stylesheet" href="./css/photoIntro.css" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 500px;
+        height: auto;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      @media only screen and (max-width: 1100px) {
+        table {
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./course.html">Course</a></li>
+          <li><a href="./aboutus.html">About Us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+    <div class="form">
+      <h3>Exposure mode</h3>
+      <br />
+      <p>
+        Exposure in photography refers to the point at which light first reaches
+        the film or sensor and the image is captured. The amount of light from
+        the scene that strikes the image sensor (controlled by the lens
+        aperture), the period of time the sensor is exposed to the light
+        (controlled by the shutter speed), and the sensitivity of the sensor
+        (determined by the ISO setting) combine to determine the proper exposure
+        for a digital image. It is impossible to exaggerate the value of good
+        exposure. The highlights of an image will be entirely white and devoid
+        of tone information if it is overexposed. An image will be black and
+        lack shadow detail if it is severely underexposed.
+      </p>
+      <p>
+        • Manual mode<br />
+        • Aperture priority mode<br />
+        • Shutter priority mode<br />
+        • Program mode
+      </p>
+      <div class="row">
+        <div class="offset-lg-3 col-lg-6">
+          <img
+            src="images/images (3).jpeg"
+            alt=""
+            width="100%"
+            height="300"
+            class="rounded"
+          />&nbsp;
+        </div>
+      </div>
+      <h5>Manual mode</h5>
+      <p>
+        Aperture and shutter speed are also under your control in manual mode.
+        To help you set the aperture and shutter speed appropriately, use the
+        exposure meter. Understanding how exposure is impacted by lighting
+        levels is crucial in this mode. You have total control over how your
+        camera operates and how the image turns out when you use manual mode.
+      </p>
+      <br />
+      <h5>Aperture priority mode</h5>
+      <p>
+        When using aperture priority auto, you set the aperture, and the camera
+        chooses the appropriate shutter speed on its own. When managing the
+        depth of field rather than capturing the subject's motion is more
+        critical than either portraiture or macro photography, this mode is
+        excellent.
+      </p>
+      <br />
+      <h5>Shutter priority mode</h5>
+      <p>
+        The shutter speed is set in shutter priority auto mode, and the camera
+        automatically changes the aperture to adequately expose the picture.
+        Because it provides you complete control over shutter speed, this mode
+        is ideal for photographing sports or other fast-moving objects and
+        unpredictable activity.
+      </p>
+      <br />
+      <h5>Program mode</h5>
+      <p>
+        The camera chooses the best aperture and shutter speed for the scene
+        after metering it in programmed auto mode. To alter the outcomes, you
+        can select from a variety of aperture and shutter speed combinations.
+        For photos and still portrait settings, this mode is advised.
+      </p>
+      <br />
+      <div class="tab">
+        <table>
+          <tbody>
+            <tr>
+              <td>Exposure mode&nbsp;</td>
+              <td>&nbsp;Man</td>
+              <td>Camera&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Manual mode&nbsp;</td>
+              <td>Aperture/shutter/ISO &nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Aperture priority mode&nbsp;</td>
+              <td>Aperture/ISO&nbsp;</td>
+              <td>Shutter&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Shutter priority mode&nbsp;</td>
+              <td>Shutter/ISO&nbsp;</td>
+              <td>Aperture&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Program Mode&nbsp;</td>
+              <td>ISO&nbsp;</td>
+              <td>Aperture/shutter &nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a target="_blank" href="https://www.facebook.com/creativedonut">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/creativedonut">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/creativedonut">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/dropyourbass">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a target="_blank" href="https://github.com/vipulsaxena">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          [CREATER NAME] Copyright © 2023 [Creater Name] - All rights reserved
+          || Designed By: [name]
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
