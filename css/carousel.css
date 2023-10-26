@@ -25,7 +25,7 @@
 }
 
 .carousel-slide:nth-child(3) {
-  background-image: url("https://banuk2001.github.io/photographyhandbook/img2/caroser3.jpeg");
+  background-image: url("img2/caroser3.jpeg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
