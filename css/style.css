@@ -354,4 +354,15 @@ h1 {
   .footer .row a i {
     margin: 0% 3%;
   }
+  button {
+  background-color:#ff5722;
+  border: none;
+  position: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
 }
