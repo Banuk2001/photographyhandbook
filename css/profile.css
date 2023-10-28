@@ -80,7 +80,7 @@ p {
   margin: 25px 30px;
 }
 
-button {
+.button {
   background-color:#ff5722;
   border: none;
   position: center;
