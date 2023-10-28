@@ -354,5 +354,12 @@ h1 {
   .footer .row a i {
     margin: 0% 3%;
   }
-  
+  .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
 }
